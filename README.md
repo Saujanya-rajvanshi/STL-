@@ -33,3 +33,21 @@ int main() {
 }
 
 ```
+### second method of insertion 
+
+```cpp
+#include<iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    vector<int> vec(3, 10);
+    for(int val: vec) {
+        cout << val <<<<< val << " ";
+        
+    }
+    cout << endl;
+}
+
+```
