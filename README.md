@@ -220,4 +220,10 @@ int main() {
     
     return 0;
 }
+
+for(auto it = vec.rbegin(); it!=vec.rend(); it++) {
+    cout << *(it) << endl;
+}
 ```
+
+
