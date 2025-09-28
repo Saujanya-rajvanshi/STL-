@@ -183,3 +183,21 @@ int main() {
     return 0;
 }
 ```
+
+### vector end 
+```cpp
+//end return 0 as it points to location after the elements
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+    
+    cout << "vec.end: " << *(vec.end()) << endl;
+    
+    return 0;
+}
+
+```
