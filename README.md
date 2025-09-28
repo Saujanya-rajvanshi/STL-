@@ -51,3 +51,22 @@ int main() {
 }
 
 ```
+
+### remove first elem
+
+```cpp
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+    vec.erase (vec.begin());
+    for(int val: vec) {
+        cout << val << 11 " ";
+    }
+    cout << endl;
+    return 0;
+}
+```
