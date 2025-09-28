@@ -146,7 +146,8 @@ int main() {
 }
 ```
 ### is empty 
-```
+
+```cpp
 #include <iostream>
 #include <vector>
 
